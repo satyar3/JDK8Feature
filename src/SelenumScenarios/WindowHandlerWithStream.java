@@ -8,7 +8,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class WindowHandlerWithStream
 {
-	public static void main(String[] args) throws RuntimeException
+	public static void main(String[] args)
 	{
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
@@ -25,7 +25,7 @@ public class WindowHandlerWithStream
 		
 	}
 	
-	public static String windowHandler(WebDriver driver, String title) throws RuntimeException
+	public static String windowHandler(WebDriver driver, String title)
 	{
 		return 
 				driver.getWindowHandles()
@@ -33,6 +33,6 @@ public class WindowHandlerWithStream
 						.map(handler -> driver.switchTo().window(handler).getTitle())
 							.filter(handler -> handler.contains(title))
 								.findFirst()
-									.orElseThrow(() -> { throw new RuntimeException("WindowNotFoundException"); } );
+									.orElseThrow(() -> new RuntimeException("WindowNotFoundException"));
 	}
 }
