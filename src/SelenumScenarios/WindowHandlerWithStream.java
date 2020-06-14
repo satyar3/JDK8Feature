@@ -8,7 +8,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class WindowHandlerWithStream
 {
-	public static void main(String[] args)
+	public static void main(String[] args) throws RuntimeException
 	{
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
