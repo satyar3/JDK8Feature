@@ -25,7 +25,7 @@ public class WindowHandlerWithStream
 		
 	}
 	
-	public static String windowHandler(WebDriver driver, String title)
+	public static String windowHandler(WebDriver driver, String title) throws RuntimeException
 	{
 		return 
 				driver.getWindowHandles()
