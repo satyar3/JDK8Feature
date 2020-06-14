@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43496" started-at="2020-06-14T07:41:55Z" finished-at="2020-06-14T07:42:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43496" started-at="2020-06-14T07:41:55Z" finished-at="2020-06-14T07:42:38Z">
+      <class name="SDET.Practice.AmazonBuy.PruchaseTest">
+        <test-method status="PASS" signature="testPayment(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AmazonBuy.PruchaseTest@53b32d7]" name="testPayment" duration-ms="12189" started-at="2020-06-14T13:11:55Z" data-provider="paymentScenarios" finished-at="2020-06-14T13:12:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java.util.function.Consumer$$Lambda$9/648680157@1563da5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayment -->
+        <test-method status="PASS" signature="testPayment(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AmazonBuy.PruchaseTest@53b32d7]" name="testPayment" duration-ms="10405" started-at="2020-06-14T13:12:07Z" data-provider="paymentScenarios" finished-at="2020-06-14T13:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java.util.function.Consumer$$Lambda$9/648680157@4215838f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayment -->
+        <test-method status="PASS" signature="testPayment(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AmazonBuy.PruchaseTest@53b32d7]" name="testPayment" duration-ms="10242" started-at="2020-06-14T13:12:17Z" data-provider="paymentScenarios" finished-at="2020-06-14T13:12:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java.util.function.Consumer$$Lambda$9/648680157@b5cc23a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayment -->
+        <test-method status="PASS" signature="testPayment(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AmazonBuy.PruchaseTest@53b32d7]" name="testPayment" duration-ms="10582" started-at="2020-06-14T13:12:28Z" data-provider="paymentScenarios" finished-at="2020-06-14T13:12:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java.util.function.Consumer$$Lambda$9/648680157@18e8473e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayment -->
+      </class> <!-- SDET.Practice.AmazonBuy.PruchaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
