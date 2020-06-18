@@ -1,57 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="42009" started-at="2020-06-14T10:06:33Z" finished-at="2020-06-14T10:07:15Z">
+  <suite name="Default suite" duration-ms="75" started-at="2020-06-18T02:05:09Z" finished-at="2020-06-18T02:05:09Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="42009" started-at="2020-06-14T10:06:33Z" finished-at="2020-06-14T10:07:15Z">
-      <class name="SDET.Practice.AmazonBuy.PruchaseTest">
-        <test-method status="PASS" signature="testPayment(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AmazonBuy.PruchaseTest@53b32d7]" name="testPayment" duration-ms="12040" started-at="2020-06-14T15:36:33Z" data-provider="paymentScenarios" finished-at="2020-06-14T15:36:45Z">
+    <test name="Default test" duration-ms="75" started-at="2020-06-18T02:05:09Z" finished-at="2020-06-18T02:05:09Z">
+      <class name="SDET.Practice.AdvFilterTest.OpsTest">
+        <test-method status="PASS" signature="funTest(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AdvFilterTest.OpsTest@4883b407]" name="funTest" duration-ms="9" started-at="2020-06-18T07:35:09Z" data-provider="filterCriteria" finished-at="2020-06-18T07:35:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[java.util.function.Consumer$$Lambda$9/648680157@1563da5]]>
+                <![CDATA[SDET.Practice.AdvFilterTest.OpsTest$$Lambda$1/817406040@6ee52dcd]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPayment -->
-        <test-method status="PASS" signature="testPayment(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AmazonBuy.PruchaseTest@53b32d7]" name="testPayment" duration-ms="9896" started-at="2020-06-14T15:36:45Z" data-provider="paymentScenarios" finished-at="2020-06-14T15:36:55Z">
+        </test-method> <!-- funTest -->
+        <test-method status="PASS" signature="funTest(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AdvFilterTest.OpsTest@4883b407]" name="funTest" duration-ms="2" started-at="2020-06-18T07:35:09Z" data-provider="filterCriteria" finished-at="2020-06-18T07:35:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[java.util.function.Consumer$$Lambda$9/648680157@4f936da8]]>
+                <![CDATA[SDET.Practice.AdvFilterTest.OpsTest$$Lambda$2/2083117811@2a742aa2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPayment -->
-        <test-method status="PASS" signature="testPayment(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AmazonBuy.PruchaseTest@53b32d7]" name="testPayment" duration-ms="10366" started-at="2020-06-14T15:36:55Z" data-provider="paymentScenarios" finished-at="2020-06-14T15:37:06Z">
+        </test-method> <!-- funTest -->
+        <test-method status="PASS" signature="funTest(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AdvFilterTest.OpsTest@4883b407]" name="funTest" duration-ms="1" started-at="2020-06-18T07:35:09Z" data-provider="filterCriteria" finished-at="2020-06-18T07:35:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[java.util.function.Consumer$$Lambda$9/648680157@5398edd0]]>
+                <![CDATA[SDET.Practice.AdvFilterTest.OpsTest$$Lambda$3/157683534@3dfc5fb8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPayment -->
-        <test-method status="PASS" signature="testPayment(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AmazonBuy.PruchaseTest@53b32d7]" name="testPayment" duration-ms="9601" started-at="2020-06-14T15:37:06Z" data-provider="paymentScenarios" finished-at="2020-06-14T15:37:15Z">
+        </test-method> <!-- funTest -->
+        <test-method status="PASS" signature="funTest(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AdvFilterTest.OpsTest@4883b407]" name="funTest" duration-ms="2" started-at="2020-06-18T07:35:09Z" data-provider="filterCriteria" finished-at="2020-06-18T07:35:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[java.util.function.Consumer$$Lambda$9/648680157@5cbf9e9f]]>
+                <![CDATA[SDET.Practice.AdvFilterTest.OpsTest$$Lambda$4/1518864111@4d50efb8]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPayment -->
-      </class> <!-- SDET.Practice.AmazonBuy.PruchaseTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- funTest -->
+        <test-method status="PASS" signature="funTest(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AdvFilterTest.OpsTest@4883b407]" name="funTest" duration-ms="1" started-at="2020-06-18T07:35:09Z" data-provider="filterCriteria" finished-at="2020-06-18T07:35:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SDET.Practice.AdvFilterTest.OpsTest$$Lambda$5/1585787493@2173f6d9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- funTest -->
+      </class> <!-- SDET.Practice.AdvFilterTest.OpsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
