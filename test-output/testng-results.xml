@@ -1,68 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="75" started-at="2020-06-18T02:05:09Z" finished-at="2020-06-18T02:05:09Z">
+  <suite name="Default suite" duration-ms="13805" started-at="2020-06-18T17:03:54Z" finished-at="2020-06-18T17:04:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="75" started-at="2020-06-18T02:05:09Z" finished-at="2020-06-18T02:05:09Z">
-      <class name="SDET.Practice.AdvFilterTest.OpsTest">
-        <test-method status="PASS" signature="funTest(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AdvFilterTest.OpsTest@4883b407]" name="funTest" duration-ms="9" started-at="2020-06-18T07:35:09Z" data-provider="filterCriteria" finished-at="2020-06-18T07:35:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SDET.Practice.AdvFilterTest.OpsTest$$Lambda$1/817406040@6ee52dcd]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="13805" started-at="2020-06-18T17:03:54Z" finished-at="2020-06-18T17:04:08Z">
+      <class name="SDET.CheckBoxAssignment.CheckBoxAssignment">
+        <test-method status="PASS" signature="funCheckBox()[pri:0, instance:SDET.CheckBoxAssignment.CheckBoxAssignment@548e7350]" name="funCheckBox" duration-ms="13791" started-at="2020-06-18T22:33:54Z" finished-at="2020-06-18T22:34:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- funTest -->
-        <test-method status="PASS" signature="funTest(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AdvFilterTest.OpsTest@4883b407]" name="funTest" duration-ms="2" started-at="2020-06-18T07:35:09Z" data-provider="filterCriteria" finished-at="2020-06-18T07:35:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SDET.Practice.AdvFilterTest.OpsTest$$Lambda$2/2083117811@2a742aa2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- funTest -->
-        <test-method status="PASS" signature="funTest(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AdvFilterTest.OpsTest@4883b407]" name="funTest" duration-ms="1" started-at="2020-06-18T07:35:09Z" data-provider="filterCriteria" finished-at="2020-06-18T07:35:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SDET.Practice.AdvFilterTest.OpsTest$$Lambda$3/157683534@3dfc5fb8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- funTest -->
-        <test-method status="PASS" signature="funTest(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AdvFilterTest.OpsTest@4883b407]" name="funTest" duration-ms="2" started-at="2020-06-18T07:35:09Z" data-provider="filterCriteria" finished-at="2020-06-18T07:35:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SDET.Practice.AdvFilterTest.OpsTest$$Lambda$4/1518864111@4d50efb8]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- funTest -->
-        <test-method status="PASS" signature="funTest(java.util.function.Consumer)[pri:0, instance:SDET.Practice.AdvFilterTest.OpsTest@4883b407]" name="funTest" duration-ms="1" started-at="2020-06-18T07:35:09Z" data-provider="filterCriteria" finished-at="2020-06-18T07:35:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[SDET.Practice.AdvFilterTest.OpsTest$$Lambda$5/1585787493@2173f6d9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- funTest -->
-      </class> <!-- SDET.Practice.AdvFilterTest.OpsTest -->
+        </test-method> <!-- funCheckBox -->
+      </class> <!-- SDET.CheckBoxAssignment.CheckBoxAssignment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

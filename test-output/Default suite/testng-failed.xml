@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SDET.Practice.AmazonBuy.PruchaseTest">
+      <class name="SDET.Practice.LinkAssignment.PracticeLinkAssignment">
         <methods>
-          <include name="testPayment" invocation-numbers="2 3"/>
+          <include name="testAssignment"/>
         </methods>
-      </class> <!-- SDET.Practice.AmazonBuy.PruchaseTest -->
+      </class> <!-- SDET.Practice.LinkAssignment.PracticeLinkAssignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
