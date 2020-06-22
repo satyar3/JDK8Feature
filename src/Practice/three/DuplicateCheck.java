@@ -31,10 +31,10 @@ public class DuplicateCheck
 		Function<String, String> groupByString = x -> x;
 		 Stream.of(arr)
 		 .collect(Collectors.groupingBy(groupByString))
-		 .forEach((k,v) -> {
+		 .forEach((key,value) -> {
 
-			 if(v.size() > 1)
-				 System.out.println(k);
+			 if(value.size() > 1)
+				 System.out.println(key);
 		 });
 	}
 }
