@@ -17,5 +17,11 @@ public class ConsumerInterfaceConcept
 		
 		List<Integer> numList = Arrays.asList(1,2,3,4,5,6,7,8,9);
 		numList.forEach(x -> System.out.println(x));
+		
+		Consumer<String> fun2 = x -> System.out.println(x.concat(" world"));
+		fun2.accept("Hello2");
+		
+		Consumer<String> fun3 = x -> System.out.println(x.concat(" open"));
+		fun2.andThen(fun3).accept("new");
 	}
 }
